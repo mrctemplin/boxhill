@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Box Hill United FC - Official Website of Box Hill United FC </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="icon" type="image/x-icon" href="resources/images/favicon/favicon.png">
+        <link rel="stylesheet" href="resources/css/reset.css">
+        <link rel="stylesheet" href="resources/css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap">
+    </head>
+    <body>
+        <header class="grid sticky-header desktop">
+            <div class="row">
+                <nav class="wrapper header__wrapper">
+                        <a class="header__logo-wrapper" href="#">
+                            <img src="resources/images/bhufc-logo.png" alt="Box Hill United logo">
+                        </a>             
+                    <ul class="header__list">
+                        <li class="header__list-item"><a class="nav-link" href="#"> News </a></li>
+                        <li class="header__list-item"><a class="nav-link" href="#"> Fixtures </a></li>
+                        <li class="header__list-item"><a class="nav-link" href="#"> Club </a></li>
+                        <li class="header__list-item"><a class="nav-link" href="#"> Membership </a></li>
+                    </ul>
+                    <ul class="header__btn-list">
+                        <li class="header__btn-list-item">
+                            <a class="header__btn header__btn--help" href="#">
+                                <span class="btn__text"> Help </span>
+                                <span class="btn__icon-wrapper">
+                                    <svg class="btn__icon" viewBox="0 0 8 12" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.9999 3.75C1.9999 2.92266 2.7174 2.25 3.5999 2.25H4.3999C5.2824 2.25 5.9999 2.92266 5.9999 3.75V3.83438C5.9999 4.34531 5.7224 4.82109 5.2649 5.09531L4.2099 5.73047C3.5799 6.11016 3.1999 6.76406 3.1999 7.46484V7.5C3.1999 7.91484 3.5574 8.25 3.9999 8.25C4.4424 8.25 4.7999 7.91484 4.7999 7.5V7.46719C4.7999 7.275 4.9049 7.09687 5.0749 6.99375L6.1299 6.35859C7.0449 5.80547 7.5999 4.85625 7.5999 3.83438V3.75C7.5999 2.09297 6.1674 0.75 4.3999 0.75H3.5999C1.8324 0.75 0.399902 2.09297 0.399902 3.75C0.399902 4.16484 0.757402 4.5 1.1999 4.5C1.6424 4.5 1.9999 4.16484 1.9999 3.75ZM3.9999 11.25C4.26512 11.25 4.51947 11.1512 4.70701 10.9754C4.89455 10.7996 4.9999 10.5611 4.9999 10.3125C4.9999 10.0639 4.89455 9.8254 4.70701 9.64959C4.51947 9.47377 4.26512 9.375 3.9999 9.375C3.73469 9.375 3.48033 9.47377 3.2928 9.64959C3.10526 9.8254 2.9999 10.0639 2.9999 10.3125C2.9999 10.5611 3.10526 10.7996 3.2928 10.9754C3.48033 11.1512 3.73469 11.25 3.9999 11.25Z" fill="white"/>
+                                    </svg>
+                                        
+                                </span>
+                            </a>
+                        </li>
+                        <li class="header__btn-list-item">
+                            <a class="header__btn header__btn--login" href="#">
+                                <span class="btn__text"> Login </span>
+                                <span class="btn__icon-wrapper">
+                                    <svg class="btn__icon" viewBox="0 0 14 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 8.5C8.06087 8.5 9.07828 8.05223 9.82843 7.2552C10.5786 6.45817 11 5.37717 11 4.25C11 3.12283 10.5786 2.04183 9.82843 1.2448C9.07828 0.447767 8.06087 0 7 0C5.93913 0 4.92172 0.447767 4.17157 1.2448C3.42143 2.04183 3 3.12283 3 4.25C3 5.37717 3.42143 6.45817 4.17157 7.2552C4.92172 8.05223 5.93913 8.5 7 8.5ZM5.57188 10.0938C2.49375 10.0938 0 12.7434 0 16.0139C0 16.5584 0.415625 17 0.928125 17H13.0719C13.5844 17 14 16.5584 14 16.0139C14 12.7434 11.5063 10.0938 8.42813 10.0938H5.57188Z" fill="white"/>
+                                    </svg>                  
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <header class="grid sticky-header mobile">
+            <div class="row">
+                <nav class="wrapper header__wrapper">
+                    <a class="header__logo-wrapper" href="#">
+                        <img src="resources/images/bhufc-logo.png" alt="Box Hill United logo">
+                    </a>
+                    <a class="header__btn header__btn--login" href="#">
+                        <span class="btn__text"> Login </span>
+                        <span class="btn__icon-wrapper">
+                            <svg class="btn__icon" viewBox="0 0 14 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 8.5C8.06087 8.5 9.07828 8.05223 9.82843 7.2552C10.5786 6.45817 11 5.37717 11 4.25C11 3.12283 10.5786 2.04183 9.82843 1.2448C9.07828 0.447767 8.06087 0 7 0C5.93913 0 4.92172 0.447767 4.17157 1.2448C3.42143 2.04183 3 3.12283 3 4.25C3 5.37717 3.42143 6.45817 4.17157 7.2552C4.92172 8.05223 5.93913 8.5 7 8.5ZM5.57188 10.0938C2.49375 10.0938 0 12.7434 0 16.0139C0 16.5584 0.415625 17 0.928125 17H13.0719C13.5844 17 14 16.5584 14 16.0139C14 12.7434 11.5063 10.0938 8.42813 10.0938H5.57188Z" fill="white"/>
+                            </svg>                  
+                        </span>
+                    </a>
+                    <button class="menu__btn">
+                        <svg class="menu-btn__icon" viewBox="0 0 28 26" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 2.96561C0 1.81961 0.89375 0.893738 2 0.893738H26C27.1063 0.893738 28 1.81961 28 2.96561C28 4.11162 27.1063 5.03749 26 5.03749H2C0.89375 5.03749 0 4.11162 0 2.96561ZM0 13.325C0 12.179 0.89375 11.2531 2 11.2531H26C27.1063 11.2531 28 12.179 28 13.325C28 14.471 27.1063 15.3969 26 15.3969H2C0.89375 15.3969 0 14.471 0 13.325ZM28 23.6844C28 24.8304 27.1063 25.7562 26 25.7562H2C0.89375 25.7562 0 24.8304 0 23.6844C0 22.5384 0.89375 21.6125 2 21.6125H26C27.1063 21.6125 28 22.5384 28 23.6844Z" fill="white"/>
+                        </svg>   
+                    </button>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="grid container">
+                <div class="row">
+                    <article class="wrapper">
+                        <a class="banner__wrapper hero-banner__wrapper" href="#">
+                            <div class="banner__content">
+                                <header>
+                                    <p class="banner__pre-heading"> Men's team </p>
+                                    <h2 class="banner__heading"> Momentum continues with a 4&#8209;1 win against Geelong </h2>
+                                </header>
+                                <footer></footer>
+                            </div>
+                            <div class="banner__aside">
+                                <img src="resources/images/latest-article.jpg" alt="Box Hill United Senior Men's team in a huddle on gameday">
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="row">
+                    <section class="card card--border-top">
+                        <header class="card__header">
+                            <h3 class="card__title"> Next fixture </h3>
+                            <a class="arrow-link arrow-link__view-all" href="#">
+                                <span class="arrow-link__text"> All fixtures </span>
+                                <svg class="arrow-link__icon" viewBox="0 0 11 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464465C6.97631 0.269203 6.65973 0.269203 6.46447 0.464466C6.2692 0.659728 6.2692 0.97631 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM4.37114e-08 4.5L10 4.5L10 3.5L-4.37114e-08 3.5L4.37114e-08 4.5Z" fill="black"/>
+                                </svg> 
+                            </a>
+                        </header>
+                        <div class="card__competition-info">
+                            <time class="card__date"> Sat 15 Apr - 15:30 EST </time>
+                            <p class="card__competition-name"> NPL3 </p>
+                        </div>
+                        <div class="card__info card__info--next-fixture">
+                            <div class="card__next-fixture-img-wrapper">
+                                <img src="resources/images/mvfc-logo.png" alt="Melbourne Victory logo">
+                            </div>
+                            <div class="card__team-name"> Melb Victory </div>
+                        </div>
+                        <footer class="card__footer">
+                            <a class="btn btn--secondary" href="#"> Preview </a>
+                            <a class="btn btn--primary" href="#"> Buy tickets </a>
+                        </footer>
+                    </section>
+                    <section class="card">
+                        <header class="card__header">
+                            <h3 class="card__title"> Last result </h3>
+                            <a class="arrow-link arrow-link__view-all" href="#">
+                                <span class="arrow-link__text"> All results </span>
+                                <svg class="arrow-link__icon" viewBox="0 0 11 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464465C6.97631 0.269203 6.65973 0.269203 6.46447 0.464466C6.2692 0.659728 6.2692 0.97631 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM4.37114e-08 4.5L10 4.5L10 3.5L-4.37114e-08 3.5L4.37114e-08 4.5Z" fill="black"/>
+                                </svg>
+                            </a>
+                        </header>
+                        <div class="card__competition-info">
+                            <time class="card__date"> Tue 11 Apr </time>
+                            <p class="card__competition-name"> FFA Cup </p>
+                        </div>
+                        <div class="card__info card__info--last-result">
+                            <div class="card__last-opposition-wrapper">
+                                <div class="card__last-opposition-img-wrapper">
+                                    <img src="resources/images/keilor-park-logo.png" alt="Keilor Park logo">
+                                </div>
+                                <div class="card__team-name"> Keilor Park </div>
+                            </div>
+                            <div class="card__result-wrapper">
+                                <div class="card__result card__result--opposition"> 1 </div>
+                                <div class="card__result card__result--box-hill"> 4 </div>
+                            </div>
+                        </div>
+                        <footer class="card__footer">
+                            <a class="btn btn--secondary" href="#"> Match stats </a>
+                        </footer>
+                    </section>
+                    <section class="card">
+                        <header class="card__header">
+                            <h3 class="card__title"> Standings </h3>
+                            <a class="arrow-link arrow-link__view-all" href="#">
+                                <span class="arrow-link__text"> View standings </span>
+                                <svg class="arrow-link__icon" viewBox="0 0 11 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.3536 4.35355C10.5488 4.15829 10.5488 3.84171 10.3536 3.64645L7.17157 0.464465C6.97631 0.269203 6.65973 0.269203 6.46447 0.464466C6.2692 0.659728 6.2692 0.97631 6.46447 1.17157L9.29289 4L6.46447 6.82843C6.2692 7.02369 6.2692 7.34027 6.46447 7.53553C6.65973 7.7308 6.97631 7.7308 7.17157 7.53553L10.3536 4.35355ZM4.37114e-08 4.5L10 4.5L10 3.5L-4.37114e-08 3.5L4.37114e-08 4.5Z" fill="black"/>
+                                </svg>
+                            </a>
+                        </header>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                    <th> P </th>
+                                    <th> W </th>
+                                    <th> D </th>
+                                    <th> L </th>
+                                    <th> Pts </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> 6 </td>
+                                    <td> Caroline Springs </td>
+                                    <td> 4 </td>
+                                    <td> 2 </td>
+                                    <td> 0 </td>
+                                    <td> 2 </td>
+                                    <td> 6 </td>
+                                </tr>
+                                <tr>
+                                    <td> 7 </td>
+                                    <td> Doveton </td>
+                                    <td> 4 </td>
+                                    <td> 1 </td>
+                                    <td> 1 </td>
+                                    <td> 2 </td>
+                                    <td> 4 </td>
+                                </tr>
+                                <tr>
+                                    <td> 8 </td>
+                                    <td> Box Hill </td>
+                                    <td> 4 </td>
+                                    <td> 1 </td>
+                                    <td> 0 </td>
+                                    <td> 3 </td>
+                                    <td> 3 </td>
+                                </tr>
+                                <tr>
+                                    <td> 9 </td>
+                                    <td> Boroondara </td>
+                                    <td> 4 </td>
+                                    <td> 1 </td>
+                                    <td> 0 </td>
+                                    <td> 3 </td>
+                                    <td> 3 </td>
+                                </tr>
+                                <tr>
+                                    <td> 10 </td>
+                                    <td> Essendon </td>
+                                    <td> 4 </td>
+                                    <td> 0 </td>
+                                    <td> 1 </td>
+                                    <td> 3 </td>
+                                    <td> 1 </td>
+                                </tr>
+                                <tr>
+                                    <td> 11 </td>
+                                    <td> Ballarat </td>
+                                    <td> 4 </td>
+                                    <td> 0 </td>
+                                    <td> 0 </td>
+                                    <td> 4 </td>
+                                    <td> 0 </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </div>
+            <div class="grid container">
+                <div class="row image-right">
+                    <div class="description">
+                        <h2 class="heading"> We are united! </h2>
+                        <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ex modi aliquid perspiciatis deleniti adipisci, dolores reiciendis fuga natus neque inventore temporibus, suscipit, repudiandae rerum corrupti labore consectetur sunt tenetur. </p>
+                    </div>
+                    <div class="image">
+                        <img src="resources/images/senior-mens.jpg" alt="Box Hill United Senior Men's team photo at Wembley Park">
+                    </div>
+                </div>
+            </div>
+            <div class="grid container">
+                <div class="row image-left">
+                    <div class="description">
+                        <h2 class="heading"> Est. 1922 </h2>
+                        <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ex modi aliquid perspiciatis deleniti adipisci, dolores reiciendis fuga natus neque inventore temporibus, suscipit, repudiandae rerum corrupti labore consectetur sunt tenetur. </p>
+                    </div>
+                    <div class="image">
+                        <img src="resources/images/bhufc-youth.jpg" alt="Box Hill United Youth girls">
+                    </div>
+                </div>
+            </div>
+            <div class="grid container">
+                <div class="row">
+                    <div class="wrapper banner__wrapper cta-banner">
+                            <div class="banner__content banner__content--cta">
+                                <header>
+                                    <div class="banner__logo">
+                                        <img src="resources/images/bhufc-logo-white.png" alt="Box Hill United white logo">
+                                    </div>
+                                    <p class="banner__body"> Access exclusive content, rewards and competitions! </p>
+                                </header>
+                                <footer>
+                                    <a class="btn btn--cta" href="#"> Become a member </a>
+                                </footer>
+                            </div>
+                            <div class="banner__aside">
+                                <img src="resources/images/bhufc-supporters.jpg" alt="Box Hill United supporters on gameday at Wembley Park">
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="sponsors grid container">
+            <div class="row">
+                    <ul class="wrapper sponsors__list">
+                        <li class="sponsors__list-item">
+                            <a class="sponsors__list-link" href="#">
+                                <img src="resources/images/sponsors/golden-age.png" alt="Golden Age logo">
+                            </a>
+                        </li>
+                        <li class="sponsors__list-item">
+                            <a class="sponsors__list-link" href="#">
+                                <img src="resources/images/sponsors/quantam-business-finance.png" alt="Quantam Business Finance logo">
+                            </a>
+                        </li>
+                        <li class="sponsors__list-item">
+                            <a class="sponsors__list-link" href="#">
+                                <img src="resources/images/sponsors/casone-homes.png" alt="Casone Homes logo">
+                            </a>
+                        </li>
+                        <li class="sponsors__list-item">
+                            <a class="sponsors__list-link" href="#">
+                                <img src="resources/images/sponsors/pasco.png" alt="Pasco logo">
+                            </a>
+                        </li>
+                        <li class="sponsors__list-item">
+                            <a class="sponsors__list-link" href="#">
+                                <img src="resources/images/sponsors/belle-property.png" alt="Belle Property logo">
+                            </a>
+                        </li>
+                        <li class="sponsors__list-item">
+                            <a class="sponsors__list-link" href="#">
+                                <img src="resources/images/sponsors/doherty-plumbing-solutions.png" alt="Doherty Plumbing Solution logo">
+                            </a>
+                        </li>
+                        <li class="sponsors__list-item">
+                            <a class="sponsors__list-link" href="#">
+                                <img src="resources/images/sponsors/boxhill-accident-repair-centre.png" alt="Box Hill Accident Repair Centre logo">
+                            </a>
+                        </li>
+                        <li class="sponsors__list-item">
+                            <a class="sponsors__list-link" href="#">
+                                <img src="resources/images/sponsors/bluestar-property-group.png" alt="Bluestar Property Group logo">
+                            </a>
+                        </li>
+                        <li class="sponsors__list-item">
+                            <a class="sponsors__list-link" href="#">
+                                <img src="resources/images/sponsors/ice-international-cargo-express.png" alt="Ice International Cargo Express logo">
+                            </a>
+                        </li>
+                        <li class="sponsors__list-item">
+                            <a class="sponsors__list-link" href="#">
+                                <img src="resources/images/sponsors/the-sincero-group.png" alt="The Sincero Group logo">
+                            </a>
+                        </li>
+                        <li class="sponsors__list-item">
+                            <a class="sponsors__list-link" href="#">
+                                <img src="resources/images/sponsors/new-care-services.png" alt="New Care Services logo">
+                            </a>
+                        </li>
+                        <li class="sponsors__list-item">
+                            <a class="sponsors__list-link" href="#">
+                                <img src="resources/images/sponsors/provada.png" alt="Provada logo">
+                            </a>
+                        </li>
+                        <li class="sponsors__list-item">
+                            <a class="sponsors__list-link" href="#">
+                                <img src="resources/images/sponsors/fuji-teppanyaki-restaurant.png" alt="Fuji Teppanyaki Restaurant logo">
+                            </a>
+                        </li>
+                        <li class="sponsors__list-item">
+                            <a class="sponsors__list-link" href="#">
+                                <img src="resources/images/sponsors/mpressive.png" alt="Mpressive logo">
+                            </a>
+                        </li>
+                        <li class="sponsors__list-item">
+                            <a class="sponsors__list-link" href="#">
+                                <img src="resources/images/sponsors/bk-taylor-and-co.png" alt="BK Taylor and Co logo">
+                            </a>
+                        </li>
+                        <li class="sponsors__list-item">
+                            <a class="sponsors__list-link" href="#">
+                                <img src="resources/images/sponsors/aa-diesel-truck-bodies.png" alt="AA Diesel Truck Bodies logo">
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <footer class="footer grid">
+            <div class="row footer__container">
+                <div class="wrapper footer__wrapper">
+                    <a class="footer__logo-wrapper" href="#">
+                        <img src="resources/images/bhufc-logo-white.png" alt="Box Hill United logo">
+                    </a>
+                    <ul class="footer__social-links">
+                        <li>
+                            <a class="socials-btn" href="#">
+                                <span class="socials-btn__icon-wrapper">
+                                    <svg class="socials-btn__icon" viewBox="0 0 28 28" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M21.5478 8.37546C22.5564 8.37546 23.374 7.55786 23.374 6.5493C23.374 5.54074 22.5564 4.72314 21.5478 4.72314C20.5393 4.72314 19.7217 5.54074 19.7217 6.5493C19.7217 7.55786 20.5393 8.37546 21.5478 8.37546Z" fill="#0245D4"/>
+                                        <path fill="currentColor" d="M14.1214 6.30566C9.88502 6.30566 6.45166 9.73846 6.45166 13.9754C6.45166 18.2124 9.88446 21.6452 14.1214 21.6452C18.3584 21.6452 21.7912 18.2124 21.7912 13.9754C21.7912 9.73846 18.3584 6.30566 14.1214 6.30566ZM13.9999 18.9667C11.3097 18.9667 9.13014 16.7877 9.13014 14.0969C9.13014 11.4061 11.3091 9.22718 13.9999 9.22718C16.6907 9.22718 18.8697 11.4061 18.8697 14.0969C18.8697 16.7877 16.6907 18.9667 13.9999 18.9667Z" fill="#0245D4"/>
+                                        <path fill="currentColor" d="M20.6959 -0.0246582H7.30408C3.26984 -0.0246582 0 3.24518 0 7.27998V20.6713C0 24.7055 3.26984 27.9753 7.30408 27.9753H20.6954C24.7296 27.9753 27.9994 24.7055 27.9994 20.6713V7.27998C28 3.24518 24.7302 -0.0246582 20.6959 -0.0246582ZM25.3221 20.4277C25.3221 23.1179 23.1431 25.2974 20.4523 25.2974H7.54768C4.85744 25.2974 2.67792 23.1185 2.67792 20.4277V7.52302C2.67792 4.83278 4.85688 2.65326 7.54768 2.65326H20.4518C23.142 2.65326 25.3215 4.83222 25.3215 7.52302V20.4271L25.3221 20.4277Z" fill="#0245D4"/>
+                                    </svg>
+                                        
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="socials-btn" href="#">
+                                <span class="socials-btn__icon-wrapper">
+                                    <svg class="socials-btn__icon" viewBox="0 0 15 25" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M15.159 3.86546V0.0169586H9.90592C9.90592 0.0169586 6.25192 -0.521042 4.42492 4.46346V9.13846L-0.142578 9.24846V13.8445H4.46501L4.42549 25H10.2885V13.8345H14.246L15.1595 9.16746H10.135V5.46046C10.135 5.46046 10.592 3.86546 12.647 3.86546C14.7025 3.86546 15.159 3.86546 15.159 3.86546Z" fill="#0245D4"/>
+                                        </svg>
+                                        
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="socials-btn" href="#">
+                                <span class="socials-btn__icon-wrapper">
+                                    <svg class="socials-btn__icon" viewBox="0 0 31 21" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M24.8558 -0.0219727H6.1442C2.75094 -0.0219727 0 2.66329 0 5.97553V14.9718C0 18.284 2.75094 20.9693 6.1442 20.9693H24.8558C28.2491 20.9693 31 18.284 31 14.9718V5.97553C31 2.66329 28.2491 -0.0219727 24.8558 -0.0219727ZM12.369 14.9718V5.97553L20.1078 10.4734L12.369 14.9712V14.9718Z" fill="#0245D4"/>
+                                        </svg>
+                                        
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <a class="arrow-link arrow-link__back-to-top" href="#">
+                        <span class="arrow-link__text"> Back to top </span>
+                        <svg class="arrow-link__icon" viewBox="0 0 8 13" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.35355 0.646446C4.15829 0.451184 3.84171 0.451184 3.64645 0.646446L0.464466 3.82843C0.269204 4.02369 0.269204 4.34027 0.464466 4.53553C0.659729 4.7308 0.976311 4.7308 1.17157 4.53553L4 1.70711L6.82843 4.53553C7.02369 4.7308 7.34027 4.7308 7.53553 4.53553C7.7308 4.34027 7.7308 4.02369 7.53553 3.82843L4.35355 0.646446ZM4.5 13L4.5 1L3.5 1L3.5 13L4.5 13Z" fill="white"/>
+                        </svg>
+                            
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <nav class="wrapper footer__wrapper footer__container footer--border">
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a class="nav-link" href="#"> Privacy policy </a></li>
+                        <li class="footer__list-item"><a class="nav-link" href="#"> Terms of use </a></li>
+                        <li class="footer__list-item"><a class="nav-link" href="#"> Cookies policy </a></li>
+                        <li class="footer__list-item"><a class="nav-link" href="#"> Help </a></li>
+                        <li class="footer__list-item"><a class="nav-link" href="#"> Contact us </a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row footer__container">
+                <div class="wrapper footer__wrapper">
+                    <small> &copy; Copyright 2023 Box Hill United Football Club. All rights reserved. </small>
+                </div>  
+            </div>
+        </footer>
+    </body>
+</html>
